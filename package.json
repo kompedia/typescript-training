@@ -1,0 +1,26 @@
+{
+  "name": "typescript-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "compile:watch": "tsc --watch",
+    "nodemon": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kompedia/typescript-training.git"
+  },
+  "keywords": [],
+  "author": "Kompedia",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kompedia/typescript-training/issues"
+  },
+  "homepage": "https://github.com/kompedia/typescript-training#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "typescript": "^3.7.2"
+  }
+}
